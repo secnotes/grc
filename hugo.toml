@@ -13,7 +13,7 @@ description = 'Demo site for the Hugo theme Quint.'
 
 [[menus.main]]
 name = '评论'
-url = 'https://github.com/liyansong2018/cyberpaper/issue'
+url = 'https://github.com/liyansong2018/cyberpaper/issues'
 
 [markup.goldmark.renderer]
     unsafe = true
