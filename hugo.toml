@@ -2,6 +2,8 @@
 theme = "quint"
 summaryLength = 20                  # Number of characters in your card summaries
 baseURL = 'https://liyansong2018.github.io/cyberpaper/'
+relativeURLs = true
+canonifyURLs = false
 
 [params]
 useToc = true
