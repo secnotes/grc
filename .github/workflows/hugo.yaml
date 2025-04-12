@@ -64,7 +64,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://liyansong2018.github.io/cyberpaper/" \
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache Save
         id: cache-save
@@ -82,7 +82,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://liyansong2018.github.io/cyberpaper/
+      url: ${{ steps.pages.outputs.base_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
