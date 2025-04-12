@@ -17,3 +17,7 @@ url = 'https://github.com/liyansong2018/cyberpaper/issue'
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
