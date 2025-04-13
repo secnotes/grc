@@ -1,7 +1,7 @@
 ---
 title: AVSS 白皮书 1.0
 date: 2024-06-07T20:44:21+08:00
-tags: [responsive]
+tags: []
 series: []
 featured: false
 summary: "一种新颖、开放、基于攻击者视角的安全评估框架。 AVSS 不仅强化防御，而且支持数据驱动的决策。通过量化安全优势，AVSS 使企业能够做出明智的决策，最大限度地提高安全投资的收益并走在新兴威胁的前面。"
@@ -431,7 +431,7 @@ IoT产品：AVSS评估在验证连接设备的安全性方面发挥着至关重�
 
 为此，我们联合合作伙伴正式发布AVSS 1.0版本。
 
+<hr />
 <div style="text-align: right;">
     原文：<a href="https://www.avss.sg/">ADVERSARIAL VULNERABILITY SCORING SYSTEM WHITE PAPER v1.0</a><br />
-    翻译：请提交issue帮助我们更好的改进 <a href="https://github.com/liyansong2018/cybertrans/issues">issue@liyansong2018</a>
 </div>

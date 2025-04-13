@@ -15,8 +15,8 @@ description = 'Demo site for the Hugo theme Quint.'
     name = "X"
 
 [[menus.main]]
-name = '评论'
-url = 'https://github.com/liyansong2018/cyberpaper/issues'
+    name = '评论'
+    url = 'https://github.com/liyansong2018/cyberpaper/issues'
 
 [markup.goldmark.renderer]
     unsafe = true
@@ -24,3 +24,4 @@ url = 'https://github.com/liyansong2018/cyberpaper/issues'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+    maxAge = 0

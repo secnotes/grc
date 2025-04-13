@@ -2,7 +2,7 @@
     {{ $min := 1 }}{{ $max := .Site.Params.numImages }}{{ $randomNumber := (add (mul (math.Rand) (add (sub $max $min) 1)) $min) | int }}
 
     <section class="hero"
-    style='background-image: url("{{ with .Params.image }}{{ . }}{{ else }}/cyberpaper/images/{{ $randomNumber }}.jpg{{ end }}"); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%;'
+    style='background-image: url("{{ with .Params.image }}{{ . | absURL }}{{ else }}{{ absURL (printf "images/%d.jpg" $randomNumber) }}{{ end }}"); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%;'
     id="heroSection" onload="adjustTextColor(this)">
         <div>
             <h1 class="p-name" id="textOverlay">{{ .Title }}</h1>

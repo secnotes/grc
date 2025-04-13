@@ -1,7 +1,7 @@
 ---
 title: 移动应用安全验证标准 v2.1.0
 date: 2024-06-12T20:44:21+08:00
-tags: [responsive]
+tags: []
 series: []
 featured: false
 summary: "OWASP 移动应用程序安全验证标准 （MASVS） 是移动应用程序安全的行业标准。它提供了一套全面的安全控制措施，可用于评估跨各种平台（例如Android、iOS）和部署场景（例如消费者、企业）的移动应用程序的安全性。该标准涵盖了移动应用攻击面的关键组件，包括存储、加密、身份验证和授权、网络通信、与移动平台的交互、代码质量以及防止逆向工程和篡改的韧性。"
@@ -362,9 +362,7 @@ MASVS-PRIVACY并非旨在作为详尽或排他性的参考。也就是说虽然M
 > </div>
 
 <hr />
-
 <div style="text-align: right;">
     原文：<a href="https://github.com/OWASP/owasp-masvs/releases/tag/v2.1.0">OWASP Mobile Application Security Verification Standard v2.1.0</a><br />
-    翻译：请提交issue帮助我们更好的改进 <a href="https://github.com/liyansong2018/cybertrans/issues">issue@liyansong2018</a>
 </div>
 
