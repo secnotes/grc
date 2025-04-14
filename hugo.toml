@@ -4,6 +4,7 @@ summaryLength = 20                  # Number of characters in your card summarie
 baseURL = 'https://liyansong2018.github.io/cyberpaper/'
 relativeURLs = true
 canonifyURLs = false
+title = "Li Yansong"
 
 [params]
 useToc = true
