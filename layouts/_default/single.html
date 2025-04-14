@@ -12,7 +12,7 @@
         <div class="post">
             <div class="post-data row">
                 <time class="dt-published" datetime="{{ .Date }}">
-                    <a class="u-url" href="{{ .Permalink }}">{{ .Date | time.Format ":date_medium" }}</a>
+                    <a class="u-url" href="{{ .Permalink }}">{{ .Date | time.Format "2006年1月2日" }}</a>
                 </time>
                 <span rel="author" class="p-author h-card">
                     <img class="u-photo hidden" src="{{ with $.Site.Author.image }}{{ . }}{{ else }}{{ end }}" />
@@ -38,7 +38,7 @@
             {{ $multiHeading := ge $headingsCount 1 }}
             {{ if $multiHeading }}
                 <aside class="tableOfContentContainer" id="tableOfContentContainer">
-                    <h3>Table of Contents</h3>
+                    <h3>目录</h3>
                     {{ .TableOfContents }}
                 </aside>
             {{ end }}
