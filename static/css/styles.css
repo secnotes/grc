@@ -240,9 +240,7 @@ header .logo img {
 .hero h1,
 .hero p,
 .hero .subtitle {
-    margin: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 3rem;
 }
 
 .hero h1 {
