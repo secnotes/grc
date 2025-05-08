@@ -4,17 +4,17 @@
 
 已翻译
 
-1. [AVSS 白皮书 1.0](https://liyansong2018.github.io/cyberpaper/paper/avsswhitepaper/avsswhitepaperreleasedv10_zh/)
-2. [移动应用程序安全验证标准 v2.1.0](https://liyansong2018.github.io/cyberpaper/paper/owasp_masvs/masvs_v2.1.0_zh/)
-3. [NIST 网络安全框架 CSF 2.0](https://liyansong2018.github.io/cyberpaper/paper/csf2.0/csf2.0_zh/)
-4. [NIST 风险管理框架 RMF](https://liyansong2018.github.io/cyberpaper/paper/rmf/rmf_zh/)
-5. [NIST 人工智能风险管理框架 AI RMF](https://liyansong2018.github.io/cyberpaper/paper/airmf/ai_rmf1.0_zh/)
+1. [AVSS 白皮书 1.0](https://secnotes.github.io/cyberpaper/paper/avsswhitepaper/avsswhitepaperreleasedv10_zh/)
+2. [移动应用程序安全验证标准 v2.1.0](https://secnotes.github.io/cyberpaper/paper/owasp_masvs/masvs_v2.1.0_zh/)
+3. [NIST 网络安全框架 CSF 2.0](https://secnotes.github.io/cyberpaper/paper/csf2.0/csf2.0_zh/)
+4. [NIST 风险管理框架 RMF](https://secnotes.github.io/cyberpaper/paper/rmf/rmf_zh/)
+5. [NIST 人工智能风险管理框架 AI RMF](https://secnotes.github.io/cyberpaper/paper/airmf/ai_rmf1.0_zh/)
 
 待翻译
 
 1. ...
 
-原有 Markdown 文件在 `content` 目录下。Github [action](https://github.com/liyansong2018/cyberpaper/actions) 会自动使用 Hugo 构建本项目，将 Markdown 文件转换为网页文件。网址在本项目右侧。
+原有 Markdown 文件在 `content` 目录下。Github [action](https://github.com/secnotes/cyberpaper/actions) 会自动使用 Hugo 构建本项目，将 Markdown 文件转换为网页文件。网址在本项目右侧。
 
 ## 贡献指南
 

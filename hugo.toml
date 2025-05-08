@@ -1,23 +1,23 @@
 
 theme = "quint"
 summaryLength = 20                  # Number of characters in your card summaries
-baseURL = 'https://liyansong2018.github.io/cyberpaper/'
+baseURL = 'https://secnotes.github.io/cyberpaper/'
 relativeURLs = true
 canonifyURLs = false
-title = "Li Yansong"
+title = "SecNotes"
 
 [params]
 useToc = true
 description = 'Demo site for the Hugo theme Quint.'
 
 [[params.social]]
-    url = "https://github.com/liyansong2018/cyberpaper"
+    url = "https://github.com/secnotes/cyberpaper"
     icon = "/svg/github-svgrepo-com.svg"
     name = "X"
 
 [[menus.main]]
     name = '评论'
-    url = 'https://github.com/liyansong2018/cyberpaper/issues'
+    url = 'https://github.com/secnotes/cyberpaper/issues'
 
 [markup.goldmark.renderer]
     unsafe = true
