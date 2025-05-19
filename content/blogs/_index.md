@@ -1,6 +1,6 @@
 ---
-title: "Paper"
-date: 2024-05-12T12:44:32-05:00
+title: "Blogs"
+date: 2024-05-19T12:44:32-05:00
 draft: false
 image: ''
 description:

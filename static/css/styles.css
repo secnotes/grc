@@ -389,7 +389,7 @@ ul.search-results li a {
 
 /* Footer Styles */
 footer {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     padding: 20px;

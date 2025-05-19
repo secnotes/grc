@@ -15,9 +15,9 @@ description = 'Demo site for the Hugo theme Quint.'
     icon = "/svg/github-svgrepo-com.svg"
     name = "X"
 
-[[menus.main]]
-    name = '评论'
-    url = 'https://github.com/secnotes/cyberpaper/issues'
+#[[menus.main]]
+    #name = '评论'
+    #url = 'https://github.com/secnotes/cyberpaper/issues'
 
 [markup.goldmark.renderer]
     unsafe = true
