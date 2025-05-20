@@ -491,3 +491,8 @@ AI RMF 致力于：
 8. 利用并提高对现有 AI 风险管理标准、指南、最佳实践、方法和工具的认识，并阐明对额外改进资源的需求。
 9. 不受法律法规约束。该框架应支持组织在适用的国内和国际法律或监管制度下运营的能力。
 10. 成为一份动态文件。随着技术、理解和对 AI 可信度及应用方法的改变，以及利益相关者从实施 AI 风险管理（尤其是本框架）中学习到的经验，AI RMF 应随时更新。
+
+<hr />
+<div style="text-align: right;">
+    原文：<a href="https://www.nist.gov/itl/ai-risk-management-framework">Artificial Intelligence Risk Management Framework (AI RMF 1.0)</a><br />
+</div>
