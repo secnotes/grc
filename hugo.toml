@@ -1,6 +1,8 @@
 
 theme = "quint"
 summaryLength = 20                  # Number of characters in your card summaries
+pagination.pagerSize = 6            # Number of posts to show on a list page
+pagination.path="page"
 baseURL = 'https://secnotes.github.io/cyberpaper/'
 relativeURLs = true
 canonifyURLs = false

@@ -1,0 +1,49 @@
+{{ $paginator := .Paginator }}
+{{ if .IsHome }}
+  {{ $posts := where .Site.RegularPages "Section" "blog" }}  <!-- Assuming 'content/blog' is the section for posts -->
+  {{ $paginator := .Paginate ($posts) }}
+{{ else }}
+  {{ $currentSection := .Section }}
+  {{ $posts := where .Site.Pages "Section" $currentSection }}
+  {{ $paginator := .Paginate ($posts) }}
+{{ end }}
+<div class="cards" id="results">
+    {{ range .Paginator.Pages }}
+        <div class="card h-entry">
+            <a href="{{ .Permalink }}" class="u-url">
+                {{ with .Params.image }}
+                    <img src="{{ . }}" alt="{{ $.Title }}" class="u-photo">
+                {{ else }}
+                    {{ partial "randImage" . }}
+                {{ end }}
+                <div class="text">
+                    <h2 class="p-name">{{ .Title }}</h2>
+                    <p class="small e-content">{{ .Summary }}
+                    </p>
+                </div>
+            </a>
+        </div>
+    {{ end }}
+</div>
+<!-- Pagination links -->
+{{ if gt $paginator.TotalPages 1 }}
+    <div class="pagination">
+        {{ if $paginator.HasPrev }}
+            <a href="{{ $.Site.BaseURL }}page/{{ sub $paginator.PageNumber 1 }}/">before</a>
+        {{ else }}
+            <p></p>
+        {{ end }}
+        <div class="pages">
+            {{ range $paginator.Pagers }}
+                    <a href="{{ $.Site.BaseURL }}page/{{ .PageNumber }}/"{{ if eq . $paginator }} class="active"{{ end }}>
+                    {{ .PageNumber }}
+                </a>
+            {{ end }}
+        </div>
+        {{ if $paginator.HasNext }}
+            <a href="{{ $.Site.BaseURL }}page/{{ add $paginator.PageNumber 1 }}/">more</a>
+        {{ else }}
+            <p></p>
+        {{ end }}
+    </div>
+{{ end }}
