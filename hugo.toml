@@ -3,7 +3,7 @@ theme = "quint"
 summaryLength = 20                  # Number of characters in your card summaries
 pagination.pagerSize = 6            # Number of posts to show on a list page
 pagination.path="page"
-baseURL = 'https://secnotes.github.io/cyberpaper/'
+baseURL = 'https://secnotes.github.io/grc/'
 relativeURLs = true
 canonifyURLs = false
 title = "SecNotes"
@@ -13,13 +13,13 @@ useToc = true
 description = 'Demo site for the Hugo theme Quint.'
 
 [[params.social]]
-    url = "https://github.com/secnotes/cyberpaper"
+    url = "https://github.com/secnotes/grc"
     icon = "/svg/github-svgrepo-com.svg"
     name = "X"
 
 #[[menus.main]]
     #name = '评论'
-    #url = 'https://github.com/secnotes/cyberpaper/issues'
+    #url = 'https://github.com/secnotes/grc/issues'
 
 [markup.goldmark.renderer]
     unsafe = true
