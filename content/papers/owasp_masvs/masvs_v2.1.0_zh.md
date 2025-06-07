@@ -5,7 +5,7 @@ tags: []
 series: []
 featured: false
 summary: "OWASP 移动应用程序安全验证标准 （MASVS） 是移动应用程序安全的行业标准。它提供了一套全面的安全控制措施，可用于评估跨各种平台（例如Android、iOS）和部署场景（例如消费者、企业）的移动应用程序的安全性。"
-image: "/background/owasp-mastg-masvs.png"
+image: "/background/OWASP-Blog-min.png"
 ---
 
 
