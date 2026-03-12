@@ -18,3 +18,28 @@ a {
 a:hover, a:focus {
     color: var(--primary-text);
 }
+
+/* 目录滚动条支持 - 修复长目录无法滚动的问题 */
+aside.tableOfContentContainer {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* 自定义滚动条样式 */
+aside.tableOfContentContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+aside.tableOfContentContainer::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+aside.tableOfContentContainer::-webkit-scrollbar-thumb {
+    background-color: var(--link-color);
+    border-radius: 3px;
+}
+
+aside.tableOfContentContainer::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-text);
+}
