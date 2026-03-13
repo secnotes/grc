@@ -1,0 +1,25 @@
+{{ define "main" }}
+    <section class="hero">
+        <h1 class="p-name">{{ .Title }}</h1>
+        {{ partial "search.html" . }}
+    </section>
+    <main class="h-entry e-content container col">
+        <div class="cards">
+            {{ range .Pages }}
+            <div class="card h-entry">
+                <a href="{{ .Permalink }}" class="u-url">
+                    {{ with .Params.image }}
+                        <img src="{{ . }}" alt="{{ $.Title }}" class="u-photo">
+                    {{ else }}
+                        {{ partial "randImage" . }}
+                    {{ end }}
+                    <div class="text">
+                        <h2 class="p-name">{{ .Title }}</h2>
+                        <p class="small e-content">{{ .Summary }}</p>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </main>
+{{ end }}

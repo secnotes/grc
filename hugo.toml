@@ -18,12 +18,21 @@ description = 'Demo site for the Hugo theme Quint.'
     icon = "/svg/github-svgrepo-com.svg"
     name = "X"
 
+[[menus.main]]
+    name = 'Tags'
+    url = '/tags/'
+    weight = 1
+
 #[[menus.main]]
     #name = '评论'
     #url = 'https://github.com/secnotes/grc/issues'
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[markup.goldmark.parser.attribute]
+    block = true
+    title = true
 
 [caches]
   [caches.images]

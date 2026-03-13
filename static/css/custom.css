@@ -43,3 +43,26 @@ aside.tableOfContentContainer::-webkit-scrollbar-thumb {
 aside.tableOfContentContainer::-webkit-scrollbar-thumb:hover {
     background-color: var(--primary-text);
 }
+
+/* Tags 页面样式 */
+.tag-cloud {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px 8px;
+    background-color: var(--link-color);
+    color: var(--primary-bg);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.tag-cloud:hover {
+    background-color: var(--primary-text);
+    transform: scale(1.05);
+    color: var(--primary-bg);
+}
+
+.tag-cloud:visited {
+    color: var(--primary-bg);
+}

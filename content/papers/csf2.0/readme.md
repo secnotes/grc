@@ -1,7 +1,7 @@
 ---
 title: NIST 网络安全框架 2.0
 date: 2025-04-09T20:44:21+08:00
-tags: []
+tags: [NIST CSF]
 series: []
 featured: false
 summary: "NIST 网络安全框架（CSF 2.0）为行业、政府机构和其他组织提供网络安全风险管理指南。CSF 是一套自愿性指南，旨在帮助组织改善其网络安全态势。与以合规性为导向的 NIST RMF 不同，NIST CSF 非常灵活，适合任何规模和行业的组织。"
