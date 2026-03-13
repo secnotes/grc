@@ -5,7 +5,7 @@ tags: [AI RMF]
 series: []
 featured: false
 summary: "人工智能风险管理框架（AI RMF）的目标是为设计、开发、部署或使用 AI 系统的组织提供资源，以帮助管理 AI 的诸多风险，以促进透明、负责任的开发和使用 AI 系统。该框架核心包含 GOVERN（治理）、MAP（映射）、MEASURE（衡量，或翻译为风险分析）、MANAGE（管理）。"
-image: "/background/nist.ai.rmf.png"
+image: "background/nist.ai.rmf.png"
 code: utf-8
 ---
 
