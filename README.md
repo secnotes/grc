@@ -7,9 +7,10 @@
 1. [AVSS 白皮书 1.0](https://secnotes.github.io/grc/paper/avsswhitepaper/avsswhitepaperreleasedv10_zh/)
 2. [移动应用程序安全验证标准 v2.1.0](https://secnotes.github.io/grc/paper/owasp_masvs/masvs_v2.1.0_zh/)
 3. [NIST 网络安全框架 CSF 2.0](https://secnotes.github.io/grc/paper/csf2.0/csf2.0_zh/)
-4. [NIST 风险管理框架 RMF](https://secnotes.github.io/grc/paper/rmf/rmf_zh/)
+4. [NIST 风险管理框架 RMF](https://secnotes.github.io/grc/paper/rmf/rmf_zh/) ([完整PDF版](attachment/NIST-800-37-RMF/NIST-SP-800-37r2-完整中文版.pdf))
 5. [NIST 人工智能风险管理框架 AI RMF](https://secnotes.github.io/grc/paper/airmf/ai_rmf1.0_zh/)
 6. [NIST CSF、ISO 27001/2、NIST 800-53 和 SCF](https://secnotes.github.io/grc/blogs/csf27001_80053_scf/readme/)
+7. [NIST 安全与隐私控制 800-53](https://secnotes.github.io/grc/ai/nist-800-53/readme/)
 
 待翻译
 
