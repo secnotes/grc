@@ -1,0 +1,4 @@
+{{ $min := 1 }}
+{{ $max := .Site.Params.numImages }}
+{{ $randomNumber := (add (mul (math.Rand) (add (sub $max $min) 1)) $min) | int }}
+<img src="{{ printf "images/%d.jpg" $randomNumber | absURL }}" alt="{{ .Title }}">

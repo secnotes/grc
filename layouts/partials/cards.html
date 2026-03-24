@@ -12,7 +12,7 @@
         <div class="card h-entry">
             <a href="{{ .Permalink }}" class="u-url">
                 {{ with .Params.image }}
-                    <img src="{{ . }}" alt="{{ $.Title }}" class="u-photo">
+                    <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="u-photo">
                 {{ else }}
                     {{ partial "randImage" . }}
                 {{ end }}
