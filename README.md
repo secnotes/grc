@@ -4,15 +4,15 @@
 
 | 文档 | 类型 | 说明 |
 |------|------|------|
-| [**NIST CSF 2.0**](https://secnotes.github.io/grc/papers/csf2.0/) | 网络安全框架 | 网络安全风险管理指南 |
-| [**NIST RMF (SP 800-37)**](https://secnotes.github.io/grc/blogs/rmf/) | 风险管理框架 | [完整PDF版](attachment/NIST-800-37-RMF/NIST-SP-800-37r2-完整中文版.pdf) |
-| [**NIST AI RMF**](https://secnotes.github.io/grc/papers/airmf/) | AI 风险管理 | 人工智能风险管理框架 |
-| [**NIST SP 800-53**](https://secnotes.github.io/grc/ai/nist-800-53/) | 安全与隐私控制 | 安全控制措施 |
-| [**NIST SP 800-57 Part 1 Rev 6**](https://secnotes.github.io/grc/translations/NIST.SP.800-57pt1r6.ipd/) | 密钥管理 | 密钥管理建议 |
-| [**GDPR**](https://secnotes.github.io/grc/ai/gdpr/) | 数据保护法规 | GDPR 条款中文翻译 |
-| [**OWASP MASVS v2.1.0**](https://secnotes.github.io/grc/papers/owasp-masvs/) | 移动应用安全 | 移动应用安全验证标准 |
-| [**AVSS 白皮书 1.0**](https://secnotes.github.io/grc/papers/avsswhitepaper/) | 车辆安全 | 车辆安全标准 |
-| [**NIST CSF、ISO 27001/2、NIST 800-53 和 SCF**](https://secnotes.github.io/grc/blogs/csf27001-80053-scf/) | 框架对比 | 框架对比分析 |
+| [NIST CSF 2.0](https://secnotes.github.io/grc/papers/csf2.0/) | 网络安全框架 | 网络安全风险管理指南 |
+| [NIST RMF (SP 800-37)](https://secnotes.github.io/grc/blogs/rmf/) | 风险管理框架 | [完整PDF版](attachment/NIST-800-37-RMF/NIST-SP-800-37r2-完整中文版.pdf) |
+| [NIST AI RMF](https://secnotes.github.io/grc/papers/airmf/) | AI 风险管理 | 人工智能风险管理框架 |
+| [NIST SP 800-53](https://secnotes.github.io/grc/ai/nist-800-53/) | 安全与隐私控制 | 安全控制措施 |
+| [NIST SP 800-57 Part 1 Rev 6](https://secnotes.github.io/grc/ai/nist-800-57/) | 密钥管理 | 密钥管理建议 |
+| [GDPR](https://secnotes.github.io/grc/ai/gdpr/) | 数据保护法规 | GDPR 条款中文翻译 |
+| [OWASP MASVS v2.1.0](https://secnotes.github.io/grc/papers/owasp-masvs/) | 移动应用安全 | 移动应用安全验证标准 |
+| [AVSS 白皮书 1.0](https://secnotes.github.io/grc/papers/avsswhitepaper/) | 车辆安全 | 车辆安全标准 |
+| [NIST CSF、ISO 27001/2、NIST 800-53 和 SCF](https://secnotes.github.io/grc/blogs/csf27001-80053-scf/) | 框架对比 | 框架对比分析 |
 
 
 
