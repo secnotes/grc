@@ -20,7 +20,7 @@ code: utf-8
 - **NIST 800-171**；
 - **安全控制框架（SCF）**（或类似的元框架）。
 
-![spectrum-cybersecurity-framework-comparison](../images/spectrum-cybersecurity-framework-comparison.png)
+![spectrum-cybersecurity-framework-comparison](images/spectrum-cybersecurity-framework-comparison.png)
 
 当我们以图形方式描述各种先进的网络安全框架时，从“易到难”的顺序，主要关注的是独特的网络安全和隐私控制措施的数量。这些控制措施（例如，需求）的数量直接影响该网络安全框架所涵盖的领域数量。网络安全框架中控制措施数量较少可能使其看起来更容易实施，但从管理、技术和物理网络安全和隐私实践的角度来看，也可能无法提供组织所需的必要覆盖范围。定义网络安全和隐私控制措施的“恰到好处”主要是一项业务决策，基于组织的风险状况，需要考虑支持现有或计划业务流程所需的适用法律、法规和合同义务。 
 
@@ -35,7 +35,7 @@ code: utf-8
 
 这两个考量因素共同作用，共同解决“合规与安全”的抉择，确保组织的网络安全和/或隐私计划既安全又合规。可以在<b>[集成控制管理 (ICM)](https://complianceforge.com/grc/integrated-controls-management/)</b>模型中了解更多相关信息。
 
-![venn-compliant-vs-secure](../images/venn-compliant-vs-secure.png)
+![venn-compliant-vs-secure](images/venn-compliant-vs-secure.png)
 
 ## 3 “合规”与“安全”的考量
 
@@ -51,7 +51,7 @@ code: utf-8
 
 我们理解，当组织从"热力图"视角审视时可能会产生些许困惑，因为每个网络安全框架都有其独特的适用范围（如专业领域）和覆盖深度。然而，理解这种差异性恰恰能帮助组织做出明智决策，根据实际需求选择最适合的框架作为起点（通常组织会采用多个框架）。组织甚至可能需要利用[元框架](https://complianceforge.com/secure-controls-framework-scf-compliance-bundles/) （例如，框架的框架）来满足更复杂的合规性要求。
 
-![complianceforge-cybersecurity-frameworks-heatmap](../images/complianceforge-cybersecurity-frameworks-heatmap.png)
+![complianceforge-cybersecurity-frameworks-heatmap](images/complianceforge-cybersecurity-frameworks-heatmap.png)
 
 ## 5 如何选择网络安全框架？（可口可乐与百事可乐的类比）
 
@@ -73,7 +73,7 @@ code: utf-8
 
 ***NIST CSF < ISO 27001/2 < NIST 800-53 < SCF***
 
-![cybersecurity-spectrum-nist-csf-vs-iso-27002-vs-nist-800-53-vs-scf](../images/cybersecurity-spectrum-nist-csf-vs-iso-27002-vs-nist-800-53-vs-scf.png)
+![cybersecurity-spectrum-nist-csf-vs-iso-27002-vs-nist-800-53-vs-scf](images/cybersecurity-spectrum-nist-csf-vs-iso-27002-vs-nist-800-53-vs-scf.png)
 
 以上图片的背景信息：
 
@@ -84,7 +84,7 @@ code: utf-8
 
 当我们开始考虑支付卡行业数据安全标准（PCI DSS）等通用要求时，我们会从交叉映射中发现，这些通用要求比 NIST CSF 原生包含的内容更全面，因此组织需要使用 ISO 27002 或 NIST 800-53 来满足 PCI DSS 框架的要求（取决于我们的 [SAQ 级别](https://complianceforge.com/pci-dss-cybersecurity-compliance-policies-standards)），除非组织想在 NIST CSF 上附加额外的控制措施来实现这一点。这种在标准框架上附加额外控制措施有错吗？没有错，但当我们开始这样做时，情况就会变得很混乱。
 
-![cybersecurity-spectrum-nist-csf-vs-iso-27001-27002-vs-nist-80053-vs-scf](../images/cybersecurity-spectrum-nist-csf-vs-iso-27001-27002-vs-nist-80053-vs-scf.png)
+![cybersecurity-spectrum-nist-csf-vs-iso-27001-27002-vs-nist-80053-vs-scf](images/cybersecurity-spectrum-nist-csf-vs-iso-27001-27002-vs-nist-80053-vs-scf.png)
 
 ### 6.1 NIST CSF
 
@@ -240,7 +240,7 @@ SCF 不适用于：
 
 重要的是要记住，选择网络安全框架更多的是一个商业决策，而不是一个技术决策， 因为外部法律、法规或框架中确定的网络安全和隐私控制直接影响组织的内部政策、标准和程序。
 
-![complianceforge-nist-csf-vs-iso-27002-vs-nist-800-171-vs-nist-800-53-compliance-documentation](../images/complianceforge-nist-csf-vs-iso-27002-vs-nist-800-171-vs-nist-800-53-compliance-documentation.png)
+![complianceforge-nist-csf-vs-iso-27002-vs-nist-800-171-vs-nist-800-53-compliance-documentation](images/complianceforge-nist-csf-vs-iso-27002-vs-nist-800-171-vs-nist-800-53-compliance-documentation.png)
 
 - **政策** 由组织的企业领导层制定，确立了支持组织整体战略和使命所必需的网络安全和数据保护要求的“管理意图”。
 - **控制目标** 确定通常与法律、法规、行业框架或合同义务相关的技术、行政和物理保护。
